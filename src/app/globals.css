@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* background image */
+.hero-bg {
+  background-image: url("https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=2070");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* glass card */
+.glass-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+
+/* input */
+.search-input {
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  width: 300px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+
+/* neon button */
+.search-btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg,#00f5ff,#ff00ff);
+  box-shadow: 0 0 20px rgba(255,0,255,0.6);
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  transform: scale(1.1);
+}
